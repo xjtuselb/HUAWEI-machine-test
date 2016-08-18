@@ -1,4 +1,4 @@
-﻿package 华为机试题;
+package 华为机试题;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -24,7 +24,7 @@ public class 开3次方根 {
 		DecimalFormat df = new DecimalFormat("#.#");
 		System.out.println(df.format(getCubeRoot(intput)));
 
-		// 方案四；使用BigDecimal来保留一位有效数字
+		// 方案四：使用BigDecimal来保留一位有效数字
 		System.out.println();
 		BigDecimal bd = new BigDecimal(getCubeRoot(intput));
 		System.out.println(bd.setScale(1, BigDecimal.ROUND_HALF_UP));
@@ -34,7 +34,6 @@ public class 开3次方根 {
 		// 合法性检测
 		if (input == 0)
 			return 0;
-		
 		// 迭代器参数
 		double f0, f1;
 		f0 = input;
