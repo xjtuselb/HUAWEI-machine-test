@@ -1,6 +1,6 @@
 package 华为机试题;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class 质数因子排序 {
 	public static void main(String[] args) {
