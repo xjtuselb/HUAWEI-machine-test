@@ -14,6 +14,8 @@ public class 真分数分解为诶及分数的和 {
 
 	}
 
+	// 81/95
+	// 1/2+1/3+1/57+1/570
 	public static void Egyptsocre(String str) {
 		String[] parts = str.split("/");
 		// 分子

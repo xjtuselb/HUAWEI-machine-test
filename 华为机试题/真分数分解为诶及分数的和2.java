@@ -13,6 +13,8 @@ public class 真分数分解为诶及分数的和2 {
 		sc.close();
 	}
 
+	// 81/95
+	// 1/2+1/3+1/52+1/14820
 	public static void Egyptsocre(String str) {
 		String[] parts = str.split("/");
 		// 分子
