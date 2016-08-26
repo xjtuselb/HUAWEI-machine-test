@@ -14,8 +14,9 @@ public class 整型数组和标志排序 {
 			int flag = Integer.parseInt(sc.nextLine());
 
 			int[] a = new int[n];
-			for (int i = 0; i < n; i++)
+			for (int i = 0; i < n; i++) {
 				a[i] = Integer.parseInt(str[i]);
+			}
 
 			sortIntegerArray(a, flag);
 
@@ -42,7 +43,7 @@ public class 整型数组和标志排序 {
 				s2 += " ";
 			}
 			s2 += a[0];
-			System.err.println(s2);
+			System.out.println(s2);
 		}
 
 	}
