@@ -1,4 +1,4 @@
-package 测试代码;
+package 华为机试题;
 
 import java.util.ArrayList;
 import java.util.Scanner;
