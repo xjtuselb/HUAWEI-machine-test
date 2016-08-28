@@ -7,8 +7,8 @@ public class 放苹果 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while (sc.hasNext()) {
-			int m = Integer.parseInt(sc.nextLine());
-			int n = Integer.parseInt(sc.nextLine());
+			int m = sc.nextInt();
+			int n = sc.nextInt();
 			System.out.println(fangpinguo(m, n));
 		}
 		sc.close();
