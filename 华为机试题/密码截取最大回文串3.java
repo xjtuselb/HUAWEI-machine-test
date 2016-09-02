@@ -1,4 +1,4 @@
-package 测试二;
+package 华为机试题;
 
 import java.util.Scanner;
 
